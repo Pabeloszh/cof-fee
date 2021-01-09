@@ -1,0 +1,480 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+#head-section {
+  background: url("../img/header-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: transparent !important;
+  border-bottom: 2px #ffffff solid;
+}
+
+.navbar button {
+  border: none;
+}
+
+.navbar button i {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.navbar a {
+  color: #ffffff !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 575px) {
+  .navbar a {
+    text-align: center;
+  }
+}
+
+#header {
+  margin-top: 75px;
+  margin-right: 20%;
+}
+
+#header p {
+  color: #ffffff;
+  font-size: 288px;
+  font-family: "Vidaloka", serif;
+  margin-bottom: -180px;
+}
+
+@media screen and (max-width: 1024px) {
+  #header {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  #header p {
+    font-size: 264px;
+    margin-bottom: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header p {
+    font-size: 194px;
+    margin-bottom: -125px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #header p {
+    font-size: 164px;
+    margin-bottom: -100px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #header p {
+    font-size: 146px;
+    margin-bottom: -75px;
+  }
+}
+
+#info-section {
+  background: url("../img/section-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+#info-section div {
+  position: absolute;
+  background-color: #c4c0bc;
+  width: 85%;
+  z-index: 2;
+}
+
+#info-section div h1 {
+  color: #b4673b;
+  font-family: "Vidaloka", serif;
+  font-size: 96px;
+}
+
+#info-section div hr {
+  border: 2px solid #b4673b;
+  margin: auto;
+}
+
+#info-section div hr:first-of-type {
+  width: 75%;
+}
+
+#info-section div hr:last-of-type {
+  width: 85%;
+}
+
+#info-section div p {
+  color: #262525;
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+}
+
+#info-section div .btn {
+  background-color: #7c958a;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  padding: 10px 60px;
+}
+
+#info-section hr:last-child {
+  width: 100%;
+  border: 2px solid #b4673b;
+}
+
+@media screen and (max-width: 1440px) {
+  #info-section div h1 {
+    font-size: 72px;
+  }
+  #info-section div p {
+    color: #262525;
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+  }
+  #info-section div .btn {
+    font-size: 36px;
+    padding: 8px 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #info-section div h1 {
+    font-size: 68px;
+  }
+  #info-section div p {
+    color: #262525;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+  }
+  #info-section div .btn {
+    font-size: 28px;
+    padding: 6px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #info-section div {
+    width: 100%;
+  }
+  #info-section div h1 {
+    font-size: 64px;
+  }
+  #info-section div p {
+    color: #262525;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+  }
+  #info-section div .btn {
+    font-size: 24px;
+    padding: 6px 40px;
+  }
+  #info-section hr:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #info-section div h1 {
+    font-size: 48px;
+  }
+  #info-section div p {
+    color: #262525;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+  }
+  #info-section div .btn {
+    font-size: 24px;
+    padding: 6px 40px;
+  }
+}
+
+#carouselExampleIndicators .sld-txt div {
+  padding: 0 200px;
+}
+
+#carouselExampleIndicators .sld-txt hr {
+  width: 45%;
+  border: 1px solid #ffffff;
+}
+
+#carouselExampleIndicators .sld-txt h1,
+#carouselExampleIndicators .sld-txt p {
+  color: #ffffff !important;
+}
+
+#carouselExampleIndicators .sld-txt h1 {
+  font-family: "Vidaloka", serif;
+  font-size: 128px;
+}
+
+#carouselExampleIndicators .sld-txt p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+}
+
+#carouselExampleIndicators #sld1 {
+  background: url("../img/slide1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+#carouselExampleIndicators #sld2 {
+  background: url("../img/slide2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+#carouselExampleIndicators #sld3 {
+  background: url("../img/slide3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+#carouselExampleIndicators ol {
+  margin-bottom: 50px;
+}
+
+#carouselExampleIndicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #7c958a;
+}
+
+@media screen and (max-width: 1440px) {
+  #carouselExampleIndicators .sld-txt div {
+    padding: 0 125px;
+  }
+  #carouselExampleIndicators .sld-txt h1 {
+    font-size: 96px;
+  }
+  #carouselExampleIndicators .sld-txt p {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #carouselExampleIndicators .sld-txt div {
+    padding: 0 125px;
+  }
+  #carouselExampleIndicators .sld-txt hr {
+    display: none;
+  }
+  #carouselExampleIndicators .sld-txt h1 {
+    font-size: 96px;
+  }
+  #carouselExampleIndicators .sld-txt p {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #carouselExampleIndicators .sld-txt div {
+    padding: 0 75px;
+  }
+  #carouselExampleIndicators .sld-txt h1 {
+    font-size: 72px;
+  }
+  #carouselExampleIndicators .sld-txt p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #carouselExampleIndicators .sld-txt div {
+    padding: 0 25px;
+  }
+  #carouselExampleIndicators .sld-txt h1 {
+    font-size: 64px;
+  }
+  #carouselExampleIndicators .sld-txt p {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #carouselExampleIndicators .sld-txt div {
+    padding: 0 25px;
+  }
+  #carouselExampleIndicators .sld-txt h1 {
+    font-size: 48px;
+  }
+  #carouselExampleIndicators .sld-txt p {
+    font-size: 18px;
+  }
+}
+
+#products {
+  background-color: #c4c0bc;
+}
+
+#products .title hr {
+  width: 30%;
+  border: 2px solid #b4673b;
+}
+
+#products .title h1 {
+  font-family: "Vidaloka", serif;
+  font-size: 96px;
+  color: #b4673b;
+}
+
+#products .text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  color: #262525;
+}
+
+#products .container .card {
+  background-color: #262525;
+  border: none;
+}
+
+#products .container .card .btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  border: none;
+  background-color: #7c958a;
+}
+
+#products .container .card .btn:last-child {
+  background-color: #b4673b;
+}
+
+#products .click {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  color: #b4673b;
+}
+
+@media screen and (max-width: 1024px) {
+  #products .title hr {
+    width: 20%;
+  }
+  #products .title h1 {
+    font-size: 72px;
+  }
+  #products .text {
+    font-size: 36px;
+  }
+  #products .container .card .btn {
+    font-size: 28px;
+  }
+  #products .click {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #products .title {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  #products .title hr {
+    display: none;
+  }
+  #products .title h1 {
+    font-size: 72px;
+  }
+  #products .text {
+    font-size: 28px;
+  }
+  #products .container .card .btn {
+    font-size: 24px;
+  }
+  #products .click {
+    font-size: 28px;
+  }
+}
+
+#contact {
+  color: #ffffff !important;
+}
+
+#contact .contact-section {
+  background-color: #6a6e70;
+}
+
+#contact .contact-section .contact-item {
+  width: 33%;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#contact .contact-section .contact-item h1 {
+  font-family: "Vidaloka", serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+#contact .contact-section .contact-item p {
+  margin-bottom: 0;
+}
+
+#contact .contact-section ul {
+  padding-left: 200px;
+}
+
+#contact #rights {
+  background-color: #7c958a;
+}
+
+#contact #rights p {
+  margin: 0;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1440px) {
+  #contact .contact-section .contact-item {
+    width: 50%;
+  }
+  #contact #site {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact .contact-section .contact-item {
+    width: 100%;
+  }
+  #contact #about {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #contact .contact-section .contact-item {
+    font-size: 18px;
+  }
+  #contact .contact-section .contact-item h1 {
+    font-size: 36px;
+  }
+  #contact #rights p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
