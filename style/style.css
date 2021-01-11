@@ -23,14 +23,14 @@
 }
 
 .navbar button i {
-  font-size: 36px;
+  font-size: 34px;
   color: #ffffff;
 }
 
 .navbar a {
   color: #ffffff !important;
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+  font-size: 34px;
 }
 
 @media screen and (max-width: 575px) {
@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 375px) {
   #header p {
-    font-size: 146px;
+    font-size: 136px;
     margin-bottom: -75px;
   }
 }
@@ -104,11 +104,11 @@
 #info-section div h1 {
   color: #b4673b;
   font-family: "Vidaloka", serif;
-  font-size: 96px;
+  font-size: 72px;
 }
 
 #info-section div hr {
-  border: 2px solid #b4673b;
+  border: 1px solid #b4673b;
   margin: auto;
 }
 
@@ -123,14 +123,14 @@
 #info-section div p {
   color: #262525;
   font-family: "Montserrat", sans-serif;
-  font-size: 42px;
+  font-size: 36px;
 }
 
 #info-section div .btn {
   background-color: #7c958a;
   border: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 42px;
+  font-size: 36px;
   padding: 10px 60px;
 }
 
@@ -141,7 +141,7 @@
 
 @media screen and (max-width: 1440px) {
   #info-section div h1 {
-    font-size: 72px;
+    font-size: 64px;
   }
   #info-section div p {
     color: #262525;
@@ -156,15 +156,15 @@
 
 @media screen and (max-width: 1024px) {
   #info-section div h1 {
-    font-size: 68px;
+    font-size: 48px;
   }
   #info-section div p {
     color: #262525;
     font-family: "Montserrat", sans-serif;
-    font-size: 28px;
+    font-size: 24px;
   }
   #info-section div .btn {
-    font-size: 28px;
+    font-size: 24px;
     padding: 6px 40px;
   }
 }
@@ -174,7 +174,7 @@
     width: 100%;
   }
   #info-section div h1 {
-    font-size: 64px;
+    font-size: 48px;
   }
   #info-section div p {
     color: #262525;
@@ -192,7 +192,7 @@
 
 @media screen and (max-width: 425px) {
   #info-section div h1 {
-    font-size: 48px;
+    font-size: 32px;
   }
   #info-section div p {
     color: #262525;
@@ -200,13 +200,13 @@
     font-size: 18px;
   }
   #info-section div .btn {
-    font-size: 24px;
+    font-size: 18px;
     padding: 6px 40px;
   }
 }
 
 #carouselExampleIndicators .sld-txt div {
-  padding: 0 200px;
+  padding: 0 100px;
 }
 
 #carouselExampleIndicators .sld-txt hr {
@@ -221,12 +221,12 @@
 
 #carouselExampleIndicators .sld-txt h1 {
   font-family: "Vidaloka", serif;
-  font-size: 128px;
+  font-size: 72px;
 }
 
 #carouselExampleIndicators .sld-txt p {
   font-family: "Montserrat", sans-serif;
-  font-size: 48px;
+  font-size: 36px;
 }
 
 #carouselExampleIndicators #sld1 {
@@ -266,37 +266,37 @@
 
 @media screen and (max-width: 1440px) {
   #carouselExampleIndicators .sld-txt div {
-    padding: 0 125px;
+    padding: 0 75px;
   }
   #carouselExampleIndicators .sld-txt h1 {
-    font-size: 96px;
+    font-size: 64px;
   }
   #carouselExampleIndicators .sld-txt p {
-    font-size: 36px;
+    font-size: 32px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   #carouselExampleIndicators .sld-txt div {
-    padding: 0 125px;
+    padding: 0 75px;
   }
   #carouselExampleIndicators .sld-txt hr {
     display: none;
   }
   #carouselExampleIndicators .sld-txt h1 {
-    font-size: 96px;
+    font-size: 64px;
   }
   #carouselExampleIndicators .sld-txt p {
-    font-size: 36px;
+    font-size: 24px;
   }
 }
 
 @media screen and (max-width: 768px) {
   #carouselExampleIndicators .sld-txt div {
-    padding: 0 75px;
+    padding: 0 50px;
   }
   #carouselExampleIndicators .sld-txt h1 {
-    font-size: 72px;
+    font-size: 48px;
   }
   #carouselExampleIndicators .sld-txt p {
     font-size: 24px;
@@ -308,7 +308,7 @@
     padding: 0 25px;
   }
   #carouselExampleIndicators .sld-txt h1 {
-    font-size: 64px;
+    font-size: 48px;
   }
   #carouselExampleIndicators .sld-txt p {
     font-size: 24px;
@@ -320,10 +320,10 @@
     padding: 0 25px;
   }
   #carouselExampleIndicators .sld-txt h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
   #carouselExampleIndicators .sld-txt p {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
@@ -338,13 +338,13 @@
 
 #products .title h1 {
   font-family: "Vidaloka", serif;
-  font-size: 96px;
+  font-size: 72px;
   color: #b4673b;
 }
 
 #products .text {
   font-family: "Montserrat", sans-serif;
-  font-size: 42px;
+  font-size: 36px;
   color: #262525;
 }
 
@@ -355,9 +355,11 @@
 
 #products .container .card .btn {
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+  font-size: 28px;
   border: none;
   background-color: #7c958a;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 #products .container .card .btn:last-child {
@@ -366,8 +368,9 @@
 
 #products .click {
   font-family: "Montserrat", sans-serif;
-  font-size: 42px;
+  font-size: 36px;
   color: #b4673b;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -375,16 +378,16 @@
     width: 20%;
   }
   #products .title h1 {
-    font-size: 72px;
+    font-size: 64px;
   }
   #products .text {
-    font-size: 36px;
-  }
-  #products .container .card .btn {
     font-size: 28px;
   }
+  #products .container .card .btn {
+    font-size: 24px;
+  }
   #products .click {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 
@@ -398,16 +401,16 @@
     display: none;
   }
   #products .title h1 {
-    font-size: 72px;
+    font-size: 64px;
   }
   #products .text {
-    font-size: 28px;
+    font-size: 24px;
   }
   #products .container .card .btn {
     font-size: 24px;
   }
   #products .click {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 
@@ -421,13 +424,13 @@
 
 #contact .contact-section .contact-item {
   width: 33%;
-  font-size: 24px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
 
 #contact .contact-section .contact-item h1 {
   font-family: "Vidaloka", serif;
-  font-size: 48px;
+  font-size: 36px;
   text-align: center;
 }
 
@@ -445,7 +448,7 @@
 
 #contact #rights p {
   margin: 0;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -468,13 +471,13 @@
 
 @media screen and (max-width: 425px) {
   #contact .contact-section .contact-item {
-    font-size: 18px;
+    font-size: 14px;
   }
   #contact .contact-section .contact-item h1 {
-    font-size: 36px;
+    font-size: 32px;
   }
   #contact #rights p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=style.css.map */
