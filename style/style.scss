@@ -30,7 +30,7 @@ $color-bg-adt: #262525;
   button {
     border: none;
     i {
-      font-size: 36px;
+      font-size: 34px;
       color: $color-main;
     }
   }
@@ -38,7 +38,7 @@ $color-bg-adt: #262525;
   a {
     color: $color-main !important;
     font-family: $font-sec;
-    font-size: 36px;
+    font-size: 34px;
   }
   @media screen and (max-width: 575px) {
     a {
@@ -80,7 +80,7 @@ $color-bg-adt: #262525;
   }
   @media screen and (max-width: 375px) {
     p {
-      font-size: 146px;
+      font-size: 136px;
       margin-bottom: -75px;
     }
   }
@@ -102,11 +102,11 @@ $color-bg-adt: #262525;
     h1 {
       color: $color-sec;
       font-family: $font-main;
-      font-size: 96px;
+      font-size: 72px;
     }
 
     hr {
-      border: 2px solid $color-sec;
+      border: 1px solid $color-sec;
       margin: auto;
     }
 
@@ -121,14 +121,14 @@ $color-bg-adt: #262525;
     p {
       color: $color-bg-adt;
       font-family: $font-sec;
-      font-size: 42px;
+      font-size: 36px;
     }
 
     .btn {
       background-color: $color-adt;
       border: none;
       font-family: $font-sec;
-      font-size: 42px;
+      font-size: 36px;
       padding: 10px 60px;
     }
   }
@@ -141,7 +141,7 @@ $color-bg-adt: #262525;
   @media screen and (max-width: 1440px) {
     div {
       h1 {
-        font-size: 72px;
+        font-size: 64px;
       }
 
       p {
@@ -158,16 +158,16 @@ $color-bg-adt: #262525;
   @media screen and (max-width: 1024px) {
     div {
       h1 {
-        font-size: 68px;
+        font-size: 48px;
       }
 
       p {
         color: $color-bg-adt;
         font-family: $font-sec;
-        font-size: 28px;
+        font-size: 24px;
       }
       .btn {
-        font-size: 28px;
+        font-size: 24px;
         padding: 6px 40px;
       }
     }
@@ -176,7 +176,7 @@ $color-bg-adt: #262525;
     div {
       width: 100%;
       h1 {
-        font-size: 64px;
+        font-size: 48px;
       }
 
       p {
@@ -196,7 +196,7 @@ $color-bg-adt: #262525;
   @media screen and (max-width: 425px) {
     div {
       h1 {
-        font-size: 48px;
+        font-size: 32px;
       }
 
       p {
@@ -205,7 +205,7 @@ $color-bg-adt: #262525;
         font-size: 18px;
       }
       .btn {
-        font-size: 24px;
+        font-size: 18px;
         padding: 6px 40px;
       }
     }
@@ -216,7 +216,7 @@ $color-bg-adt: #262525;
 #carouselExampleIndicators {
   .sld-txt {
     div {
-      padding: 0 200px;
+      padding: 0 100px;
     }
 
     hr {
@@ -231,12 +231,12 @@ $color-bg-adt: #262525;
 
     h1 {
       font-family: $font-main;
-      font-size: 128px;
+      font-size: 72px;
     }
 
     p {
       font-family: $font-sec;
-      font-size: 48px;
+      font-size: 36px;
     }
   }
 
@@ -278,41 +278,41 @@ $color-bg-adt: #262525;
   @media screen and (max-width: 1440px) {
     .sld-txt {
       div {
-        padding: 0 125px;
+        padding: 0 75px;
       }
       h1 {
-        font-size: 96px;
+        font-size: 64px;
       }
 
       p {
-        font-size: 36px;
+        font-size: 32px;
       }
     }
   }
   @media screen and (max-width: 1024px) {
     .sld-txt {
       div {
-        padding: 0 125px;
+        padding: 0 75px;
       }
       hr {
         display: none;
       }
       h1 {
-        font-size: 96px;
+        font-size: 64px;
       }
 
       p {
-        font-size: 36px;
+        font-size: 24px;
       }
     }
   }
   @media screen and (max-width: 768px) {
     .sld-txt {
       div {
-        padding: 0 75px;
+        padding: 0 50px;
       }
       h1 {
-        font-size: 72px;
+        font-size: 48px;
       }
 
       p {
@@ -326,7 +326,7 @@ $color-bg-adt: #262525;
         padding: 0 25px;
       }
       h1 {
-        font-size: 64px;
+        font-size: 48px;
       }
 
       p {
@@ -340,11 +340,11 @@ $color-bg-adt: #262525;
         padding: 0 25px;
       }
       h1 {
-        font-size: 48px;
+        font-size: 36px;
       }
 
       p {
-        font-size: 18px;
+        font-size: 14px;
       }
     }
   }
@@ -361,14 +361,14 @@ $color-bg-adt: #262525;
     }
     h1 {
       font-family: $font-main;
-      font-size: 96px;
+      font-size: 72px;
       color: $color-sec;
     }
   }
 
   .text {
     font-family: $font-sec;
-    font-size: 42px;
+    font-size: 36px;
     color: $color-bg-adt;
   }
 
@@ -378,9 +378,11 @@ $color-bg-adt: #262525;
       border: none;
       .btn {
         font-family: $font-sec;
-        font-size: 36px;
+        font-size: 28px;
         border: none;
         background-color: $color-adt;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
       }
       .btn:last-child {
         background-color: $color-sec;
@@ -390,8 +392,9 @@ $color-bg-adt: #262525;
 
   .click {
     font-family: $font-sec;
-    font-size: 42px;
+    font-size: 36px;
     color: $color-sec;
+    margin-bottom: 100px;
   }
 
   @media screen and (max-width: 1024px) {
@@ -400,33 +403,7 @@ $color-bg-adt: #262525;
         width: 20%;
       }
       h1 {
-        font-size: 72px;
-      }
-    }
-    .text {
-      font-size: 36px;
-    }
-
-    .container {
-      .card {
-        .btn {
-          font-size: 28px;
-        }
-      }
-    }
-
-    .click {
-      font-size: 36px;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .title {
-      justify-content: center !important;
-      hr {
-        display: none;
-      }
-      h1 {
-        font-size: 72px;
+        font-size: 64px;
       }
     }
     .text {
@@ -445,6 +422,32 @@ $color-bg-adt: #262525;
       font-size: 28px;
     }
   }
+  @media screen and (max-width: 768px) {
+    .title {
+      justify-content: center !important;
+      hr {
+        display: none;
+      }
+      h1 {
+        font-size: 64px;
+      }
+    }
+    .text {
+      font-size: 24px;
+    }
+
+    .container {
+      .card {
+        .btn {
+          font-size: 24px;
+        }
+      }
+    }
+
+    .click {
+      font-size: 24px;
+    }
+  }
 }
 
 //CONTACT------------------------------------------------------------------------------------------------------------------
@@ -454,11 +457,11 @@ $color-bg-adt: #262525;
     background-color: $color-bg-sec;
     .contact-item {
       width: 33%;
-      font-size: 24px;
+      font-size: 18px;
       font-family: $font-sec;
       h1 {
         font-family: $font-main;
-        font-size: 48px;
+        font-size: 36px;
         text-align: center;
       }
       p {
@@ -474,7 +477,7 @@ $color-bg-adt: #262525;
     background-color: $color-adt;
     p {
       margin: 0;
-      font-size: 24px;
+      font-size: 18px;
     }
   }
 
@@ -501,15 +504,15 @@ $color-bg-adt: #262525;
   @media screen and (max-width: 425px) {
     .contact-section {
       .contact-item {
-        font-size: 18px;
+        font-size: 14px;
         h1 {
-          font-size: 36px;
+          font-size: 32px;
         }
       }
     }
     #rights {
       p {
-        font-size: 14px;
+        font-size: 12px;
       }
     }
   }
