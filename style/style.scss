@@ -30,7 +30,7 @@ $color-bg-adt: #262525;
   button {
     border: none;
     i {
-      font-size: 34px;
+      font-size: 24px;
       color: $color-main;
     }
   }
@@ -38,7 +38,7 @@ $color-bg-adt: #262525;
   a {
     color: $color-main !important;
     font-family: $font-sec;
-    font-size: 34px;
+    font-size: 20px;
   }
   @media screen and (max-width: 575px) {
     a {
@@ -48,13 +48,13 @@ $color-bg-adt: #262525;
 }
 
 #header {
-  margin-top: 75px;
+  margin-top: 125px;
   margin-right: 20%;
   p {
     color: $color-main;
-    font-size: 288px;
+    font-size: 188px;
     font-family: $font-main;
-    margin-bottom: -180px;
+    margin-bottom: -120px;
   }
 
   @media screen and (max-width: 1024px) {
@@ -62,26 +62,26 @@ $color-bg-adt: #262525;
     margin-right: auto;
     justify-content: center !important;
     p {
-      font-size: 264px;
-      margin-bottom: -150px;
+      font-size: 168px;
+      margin-bottom: -80px;
     }
   }
   @media screen and (max-width: 768px) {
     p {
-      font-size: 194px;
-      margin-bottom: -125px;
+      font-size: 154px;
+      margin-bottom: -75px;
     }
   }
   @media screen and (max-width: 425px) {
     p {
-      font-size: 164px;
-      margin-bottom: -100px;
+      font-size: 144px;
+      margin-bottom: -70px;
     }
   }
   @media screen and (max-width: 375px) {
     p {
-      font-size: 136px;
-      margin-bottom: -75px;
+      font-size: 134px;
+      margin-bottom: -50px;
     }
   }
 }
@@ -97,12 +97,12 @@ $color-bg-adt: #262525;
   div {
     position: absolute;
     background-color: $color-bg-main;
-    width: 85%;
+    width: 75%;
     z-index: 2;
     h1 {
       color: $color-sec;
       font-family: $font-main;
-      font-size: 72px;
+      font-size: 42px;
     }
 
     hr {
@@ -111,24 +111,24 @@ $color-bg-adt: #262525;
     }
 
     hr:first-of-type {
-      width: 75%;
+      width: 55%;
     }
 
     hr:last-of-type {
-      width: 85%;
+      width: 65%;
     }
 
     p {
       color: $color-bg-adt;
       font-family: $font-sec;
-      font-size: 36px;
+      font-size: 24px;
     }
 
     .btn {
       background-color: $color-adt;
       border: none;
       font-family: $font-sec;
-      font-size: 36px;
+      font-size: 18px;
       padding: 10px 60px;
     }
   }
@@ -141,16 +141,16 @@ $color-bg-adt: #262525;
   @media screen and (max-width: 1440px) {
     div {
       h1 {
-        font-size: 64px;
+        font-size: 42px;
       }
 
       p {
         color: $color-bg-adt;
         font-family: $font-sec;
-        font-size: 36px;
+        font-size: 24px;
       }
       .btn {
-        font-size: 36px;
+        font-size: 18px;
         padding: 8px 50px;
       }
     }
@@ -158,16 +158,16 @@ $color-bg-adt: #262525;
   @media screen and (max-width: 1024px) {
     div {
       h1 {
-        font-size: 48px;
+        font-size: 36px;
       }
 
       p {
         color: $color-bg-adt;
         font-family: $font-sec;
-        font-size: 24px;
+        font-size: 18px;
       }
       .btn {
-        font-size: 24px;
+        font-size: 16px;
         padding: 6px 40px;
       }
     }
@@ -176,16 +176,16 @@ $color-bg-adt: #262525;
     div {
       width: 100%;
       h1 {
-        font-size: 48px;
+        font-size: 32px;
       }
 
       p {
         color: $color-bg-adt;
         font-family: $font-sec;
-        font-size: 24px;
+        font-size: 16px;
       }
       .btn {
-        font-size: 24px;
+        font-size: 14px;
         padding: 6px 40px;
       }
     }
@@ -196,16 +196,23 @@ $color-bg-adt: #262525;
   @media screen and (max-width: 425px) {
     div {
       h1 {
-        font-size: 32px;
+        font-size: 24px;
       }
 
       p {
         color: $color-bg-adt;
         font-family: $font-sec;
-        font-size: 18px;
+        font-size: 14px;
+      }
+      hr:first-of-type {
+        width: 75%;
+      }
+
+      hr:last-of-type {
+        width: 85%;
       }
       .btn {
-        font-size: 18px;
+        font-size: 12px;
         padding: 6px 40px;
       }
     }
@@ -231,12 +238,12 @@ $color-bg-adt: #262525;
 
     h1 {
       font-family: $font-main;
-      font-size: 72px;
+      font-size: 42px;
     }
 
     p {
       font-family: $font-sec;
-      font-size: 36px;
+      font-size: 24px;
     }
   }
 
@@ -280,13 +287,6 @@ $color-bg-adt: #262525;
       div {
         padding: 0 75px;
       }
-      h1 {
-        font-size: 64px;
-      }
-
-      p {
-        font-size: 32px;
-      }
     }
   }
   @media screen and (max-width: 1024px) {
@@ -298,11 +298,11 @@ $color-bg-adt: #262525;
         display: none;
       }
       h1 {
-        font-size: 64px;
+        font-size: 36px;
       }
 
       p {
-        font-size: 24px;
+        font-size: 18px;
       }
     }
   }
@@ -310,13 +310,6 @@ $color-bg-adt: #262525;
     .sld-txt {
       div {
         padding: 0 50px;
-      }
-      h1 {
-        font-size: 48px;
-      }
-
-      p {
-        font-size: 24px;
       }
     }
   }
@@ -326,11 +319,11 @@ $color-bg-adt: #262525;
         padding: 0 25px;
       }
       h1 {
-        font-size: 48px;
+        font-size: 24px;
       }
 
       p {
-        font-size: 24px;
+        font-size: 14px;
       }
     }
   }
@@ -338,13 +331,6 @@ $color-bg-adt: #262525;
     .sld-txt {
       div {
         padding: 0 25px;
-      }
-      h1 {
-        font-size: 36px;
-      }
-
-      p {
-        font-size: 14px;
       }
     }
   }
@@ -361,14 +347,14 @@ $color-bg-adt: #262525;
     }
     h1 {
       font-family: $font-main;
-      font-size: 72px;
+      font-size: 36px;
       color: $color-sec;
     }
   }
 
   .text {
     font-family: $font-sec;
-    font-size: 36px;
+    font-size: 24px;
     color: $color-bg-adt;
   }
 
@@ -378,7 +364,7 @@ $color-bg-adt: #262525;
       border: none;
       .btn {
         font-family: $font-sec;
-        font-size: 28px;
+        font-size: 18px;
         border: none;
         background-color: $color-adt;
         border-top-left-radius: 0;
@@ -392,7 +378,7 @@ $color-bg-adt: #262525;
 
   .click {
     font-family: $font-sec;
-    font-size: 36px;
+    font-size: 24px;
     color: $color-sec;
     margin-bottom: 100px;
   }
@@ -403,23 +389,23 @@ $color-bg-adt: #262525;
         width: 20%;
       }
       h1 {
-        font-size: 64px;
+        font-size: 24px;
       }
     }
     .text {
-      font-size: 28px;
+      font-size: 18px;
     }
 
     .container {
       .card {
         .btn {
-          font-size: 24px;
+          font-size: 16px;
         }
       }
     }
 
     .click {
-      font-size: 28px;
+      font-size: 18px;
     }
   }
   @media screen and (max-width: 768px) {
@@ -429,23 +415,23 @@ $color-bg-adt: #262525;
         display: none;
       }
       h1 {
-        font-size: 64px;
+        font-size: 24px;
       }
     }
     .text {
-      font-size: 24px;
+      font-size: 16px;
     }
 
     .container {
       .card {
         .btn {
-          font-size: 24px;
+          font-size: 14px;
         }
       }
     }
 
     .click {
-      font-size: 24px;
+      font-size: 16px;
     }
   }
 }
@@ -457,15 +443,22 @@ $color-bg-adt: #262525;
     background-color: $color-bg-sec;
     .contact-item {
       width: 33%;
-      font-size: 18px;
+      font-size: 16px;
       font-family: $font-sec;
       h1 {
-        font-family: $font-main;
-        font-size: 36px;
+        font-family: $font-sec;
+        font-weight: bold;
+        font-size: 24px;
         text-align: center;
       }
       p {
+        font-size: 16px;
         margin-bottom: 0;
+      }
+    }
+    #site {
+      h1 {
+        padding-left: 180px;
       }
     }
 
@@ -477,7 +470,7 @@ $color-bg-adt: #262525;
     background-color: $color-adt;
     p {
       margin: 0;
-      font-size: 18px;
+      font-size: 14px;
     }
   }
 
@@ -487,7 +480,7 @@ $color-bg-adt: #262525;
         width: 50%;
       }
     }
-    #site {
+    #about {
       display: none;
     }
   }
@@ -497,8 +490,13 @@ $color-bg-adt: #262525;
         width: 100%;
       }
     }
-    #about {
+    #site {
       display: none;
+    }
+    #rights {
+      p {
+        font-size: 12px;
+      }
     }
   }
   @media screen and (max-width: 425px) {
@@ -506,13 +504,17 @@ $color-bg-adt: #262525;
       .contact-item {
         font-size: 14px;
         h1 {
-          font-size: 32px;
+          font-size: 16px;
+        }
+        p {
+          font-size: 12px;
+          margin-bottom: 0;
         }
       }
     }
     #rights {
       p {
-        font-size: 12px;
+        font-size: 10px;
       }
     }
   }
