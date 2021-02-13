@@ -23,14 +23,14 @@
 }
 
 .navbar button i {
-  font-size: 34px;
+  font-size: 24px;
   color: #ffffff;
 }
 
 .navbar a {
   color: #ffffff !important;
   font-family: "Montserrat", sans-serif;
-  font-size: 34px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 575px) {
@@ -40,15 +40,15 @@
 }
 
 #header {
-  margin-top: 75px;
+  margin-top: 125px;
   margin-right: 20%;
 }
 
 #header p {
   color: #ffffff;
-  font-size: 288px;
+  font-size: 188px;
   font-family: "Vidaloka", serif;
-  margin-bottom: -180px;
+  margin-bottom: -120px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -60,29 +60,29 @@
             justify-content: center !important;
   }
   #header p {
-    font-size: 264px;
-    margin-bottom: -150px;
+    font-size: 168px;
+    margin-bottom: -80px;
   }
 }
 
 @media screen and (max-width: 768px) {
   #header p {
-    font-size: 194px;
-    margin-bottom: -125px;
+    font-size: 154px;
+    margin-bottom: -75px;
   }
 }
 
 @media screen and (max-width: 425px) {
   #header p {
-    font-size: 164px;
-    margin-bottom: -100px;
+    font-size: 144px;
+    margin-bottom: -70px;
   }
 }
 
 @media screen and (max-width: 375px) {
   #header p {
-    font-size: 136px;
-    margin-bottom: -75px;
+    font-size: 134px;
+    margin-bottom: -50px;
   }
 }
 
@@ -97,14 +97,14 @@
 #info-section div {
   position: absolute;
   background-color: #c4c0bc;
-  width: 85%;
+  width: 75%;
   z-index: 2;
 }
 
 #info-section div h1 {
   color: #b4673b;
   font-family: "Vidaloka", serif;
-  font-size: 72px;
+  font-size: 42px;
 }
 
 #info-section div hr {
@@ -113,24 +113,24 @@
 }
 
 #info-section div hr:first-of-type {
-  width: 75%;
+  width: 55%;
 }
 
 #info-section div hr:last-of-type {
-  width: 85%;
+  width: 65%;
 }
 
 #info-section div p {
   color: #262525;
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+  font-size: 24px;
 }
 
 #info-section div .btn {
   background-color: #7c958a;
   border: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+  font-size: 18px;
   padding: 10px 60px;
 }
 
@@ -141,30 +141,30 @@
 
 @media screen and (max-width: 1440px) {
   #info-section div h1 {
-    font-size: 64px;
+    font-size: 42px;
   }
   #info-section div p {
     color: #262525;
     font-family: "Montserrat", sans-serif;
-    font-size: 36px;
+    font-size: 24px;
   }
   #info-section div .btn {
-    font-size: 36px;
+    font-size: 18px;
     padding: 8px 50px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   #info-section div h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
   #info-section div p {
     color: #262525;
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
   }
   #info-section div .btn {
-    font-size: 24px;
+    font-size: 16px;
     padding: 6px 40px;
   }
 }
@@ -174,15 +174,15 @@
     width: 100%;
   }
   #info-section div h1 {
-    font-size: 48px;
+    font-size: 32px;
   }
   #info-section div p {
     color: #262525;
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 16px;
   }
   #info-section div .btn {
-    font-size: 24px;
+    font-size: 14px;
     padding: 6px 40px;
   }
   #info-section hr:last-child {
@@ -192,15 +192,21 @@
 
 @media screen and (max-width: 425px) {
   #info-section div h1 {
-    font-size: 32px;
+    font-size: 24px;
   }
   #info-section div p {
     color: #262525;
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
+  }
+  #info-section div hr:first-of-type {
+    width: 75%;
+  }
+  #info-section div hr:last-of-type {
+    width: 85%;
   }
   #info-section div .btn {
-    font-size: 18px;
+    font-size: 12px;
     padding: 6px 40px;
   }
 }
@@ -221,12 +227,12 @@
 
 #carouselExampleIndicators .sld-txt h1 {
   font-family: "Vidaloka", serif;
-  font-size: 72px;
+  font-size: 42px;
 }
 
 #carouselExampleIndicators .sld-txt p {
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+  font-size: 24px;
 }
 
 #carouselExampleIndicators #sld1 {
@@ -268,12 +274,6 @@
   #carouselExampleIndicators .sld-txt div {
     padding: 0 75px;
   }
-  #carouselExampleIndicators .sld-txt h1 {
-    font-size: 64px;
-  }
-  #carouselExampleIndicators .sld-txt p {
-    font-size: 32px;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -284,22 +284,16 @@
     display: none;
   }
   #carouselExampleIndicators .sld-txt h1 {
-    font-size: 64px;
+    font-size: 36px;
   }
   #carouselExampleIndicators .sld-txt p {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 768px) {
   #carouselExampleIndicators .sld-txt div {
     padding: 0 50px;
-  }
-  #carouselExampleIndicators .sld-txt h1 {
-    font-size: 48px;
-  }
-  #carouselExampleIndicators .sld-txt p {
-    font-size: 24px;
   }
 }
 
@@ -308,22 +302,16 @@
     padding: 0 25px;
   }
   #carouselExampleIndicators .sld-txt h1 {
-    font-size: 48px;
+    font-size: 24px;
   }
   #carouselExampleIndicators .sld-txt p {
-    font-size: 24px;
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 375px) {
   #carouselExampleIndicators .sld-txt div {
     padding: 0 25px;
-  }
-  #carouselExampleIndicators .sld-txt h1 {
-    font-size: 36px;
-  }
-  #carouselExampleIndicators .sld-txt p {
-    font-size: 14px;
   }
 }
 
@@ -338,13 +326,13 @@
 
 #products .title h1 {
   font-family: "Vidaloka", serif;
-  font-size: 72px;
+  font-size: 36px;
   color: #b4673b;
 }
 
 #products .text {
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   color: #262525;
 }
 
@@ -355,7 +343,7 @@
 
 #products .container .card .btn {
   font-family: "Montserrat", sans-serif;
-  font-size: 28px;
+  font-size: 18px;
   border: none;
   background-color: #7c958a;
   border-top-left-radius: 0;
@@ -368,7 +356,7 @@
 
 #products .click {
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   color: #b4673b;
   margin-bottom: 100px;
 }
@@ -378,16 +366,16 @@
     width: 20%;
   }
   #products .title h1 {
-    font-size: 64px;
-  }
-  #products .text {
-    font-size: 28px;
-  }
-  #products .container .card .btn {
     font-size: 24px;
   }
+  #products .text {
+    font-size: 18px;
+  }
+  #products .container .card .btn {
+    font-size: 16px;
+  }
   #products .click {
-    font-size: 28px;
+    font-size: 18px;
   }
 }
 
@@ -401,16 +389,16 @@
     display: none;
   }
   #products .title h1 {
-    font-size: 64px;
+    font-size: 24px;
   }
   #products .text {
-    font-size: 24px;
+    font-size: 16px;
   }
   #products .container .card .btn {
-    font-size: 24px;
+    font-size: 14px;
   }
   #products .click {
-    font-size: 24px;
+    font-size: 16px;
   }
 }
 
@@ -424,18 +412,24 @@
 
 #contact .contact-section .contact-item {
   width: 33%;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif;
 }
 
 #contact .contact-section .contact-item h1 {
-  font-family: "Vidaloka", serif;
-  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
   text-align: center;
 }
 
 #contact .contact-section .contact-item p {
+  font-size: 16px;
   margin-bottom: 0;
+}
+
+#contact .contact-section #site h1 {
+  padding-left: 180px;
 }
 
 #contact .contact-section ul {
@@ -448,14 +442,14 @@
 
 #contact #rights p {
   margin: 0;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 1440px) {
   #contact .contact-section .contact-item {
     width: 50%;
   }
-  #contact #site {
+  #contact #about {
     display: none;
   }
 }
@@ -464,8 +458,11 @@
   #contact .contact-section .contact-item {
     width: 100%;
   }
-  #contact #about {
+  #contact #site {
     display: none;
+  }
+  #contact #rights p {
+    font-size: 12px;
   }
 }
 
@@ -474,10 +471,14 @@
     font-size: 14px;
   }
   #contact .contact-section .contact-item h1 {
-    font-size: 32px;
+    font-size: 16px;
+  }
+  #contact .contact-section .contact-item p {
+    font-size: 12px;
+    margin-bottom: 0;
   }
   #contact #rights p {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
